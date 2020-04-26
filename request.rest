@@ -1,0 +1,12 @@
+POST  http://localhost:8000/product
+Content-Type: application/json
+
+{
+    "id" : 1234567,
+    "frontname": "hello brother"
+}
+
+
+###
+GET http://localhost:8000/movie?page=3&limit=5
+
