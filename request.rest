@@ -1,4 +1,4 @@
-POST  http://localhost:8000/product
+GET  http://localhost:8000/product
 Content-Type: application/json
 
 {
@@ -6,6 +6,15 @@ Content-Type: application/json
     "frontname": "hello brother"
 }
 
+###
+
+GET http://localhost:8000/product
+Content-Type: application/json
+
+{
+    "id": 234,
+    "title": "hello dj"
+}
 
 ###
 GET http://localhost:8000/movie?page=3&limit=5
